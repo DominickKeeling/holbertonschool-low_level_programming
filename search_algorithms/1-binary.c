@@ -13,7 +13,8 @@ int binary_search(int *array, size_t size, int value)
 {
 	int lower, upper, i, mid;
 
-	if (array == NULL || size == 0) {
+	if (array == NULL || size == 0)
+	{
 		return -1;
 	}
 
